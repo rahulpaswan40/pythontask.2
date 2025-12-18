@@ -1,0 +1,821 @@
+# --- 15 Examples of the remove() method ---
+# Syntax: list.remove(value)
+
+# 1. Removing an integer
+list1 = [1, 2, 3, 4]
+list1.remove(3)
+print("1. Removed 3:", list1)
+
+# 2. Removing a character
+list2 = ['a', 'b', 'c']
+list2.remove('b')
+print("2. Removed 'b':", list2)
+
+# 3. Removing the first occurrence of a duplicate
+list3 = [10, 20, 10, 30]
+list3.remove(10) # Only the first 10 is removed
+print("3. Removed first 10:", list3)
+
+# 4. Removing a Boolean value
+list4 = [True, False, True]
+list4.remove(False)
+print("4. Removed False:", list4)
+
+# 5. Removing a float
+list5 = [1.1, 2.2, 3.3]
+list5.remove(2.2)
+print("5. Removed 2.2:", list5)
+
+# 6. Removing a letter from a mixed list
+list6 = ['x', 'y', 'z']
+list6.remove('x')
+print("6. Removed 'x':", list6)
+
+# 7. Removing 0 from a sequence
+list7 = [0, 1, 2]
+list7.remove(0)
+print("7. Removed 0:", list7)
+
+# 8. Removing a large number
+list8 = [100, 200, 300]
+list8.remove(200)
+print("8. Removed 200:", list8)
+
+# 9. Removing a fruit name
+list9 = ['apple', 'banana', 'cherry']
+list9.remove('banana')
+print("9. Removed banana:", list9)
+
+# 10. Removing a multiple of 5
+list10 = [5, 10, 15, 20]
+list10.remove(15)
+print("10. Removed 15:", list10)
+
+# 11. Removing an animal string
+list11 = ['cat', 'dog', 'fish']
+list11.remove('dog')
+print("11. Removed dog:", list11)
+
+# 12. Removing an odd number
+list12 = [1, 3, 5, 7]
+list12.remove(5)
+print("12. Removed 5:", list12)
+
+# 13. Removing a color
+list13 = ['red', 'blue', 'green']
+list13.remove('red')
+print("13. Removed red:", list13)
+
+# 14. Removing a decimal
+list14 = [2.5, 3.5, 4.5]
+list14.remove(3.5)
+print("14. Removed 3.5:", list14)
+
+# 15. Removing a location
+list15 = ['home', 'village', 'city']
+list15.remove('village')
+print("15. Removed village:", list15)
+
+# --- 15 Examples of the reverse() method ---
+
+# 1. Reversing a list of integers
+list1 = [1, 2, 3, 4]
+list1.reverse()
+print("1. Integers:", list1)
+
+# 2. Reversing a list of characters
+list2 = ['a', 'b', 'c']
+list2.reverse()
+print("2. Characters:", list2)
+
+# 3. Reversing a list with two elements
+list3 = [10, 20]
+list3.reverse()
+print("3. Two items:", list3)
+
+# 4. Reversing Booleans
+list4 = [True, False, True]
+list4.reverse()
+print("4. Booleans:", list4)
+
+# 5. Reversing floating point numbers
+list5 = [1.1, 2.2, 3.3]
+list5.reverse()
+print("5. Floats:", list5)
+
+# 6. Reversing mixed letters
+list6 = ['x', 'y', 'z']
+list6.reverse()
+print("6. Letters:", list6)
+
+# 7. Reversing a range of numbers (converted to list)
+list7 = [0, 1, 2, 3, 4, 5]
+list7.reverse()
+print("7. Range:", list7)
+
+# 8. Reversing large integers
+list8 = [100, 200, 300, 400]
+list8.reverse()
+print("8. Hundreds:", list8)
+
+# 9. Reversing fruit names
+list9 = ['apple', 'banana', 'cherry']
+list9.reverse()
+print("9. Fruits:", list9)
+
+# 10. Reversing multiples of five
+list10 = [5, 10, 15, 20]
+list10.reverse()
+print("10. Multiples:", list10)
+
+# 11. Reversing pet names
+list11 = ['cat', 'dog', 'fish']
+list11.reverse()
+print("11. Pets:", list11)
+
+# 12. Reversing odd numbers
+list12 = [1, 3, 5, 7]
+list12.reverse()
+print("12. Odds:", list12)
+
+# 13. Reversing color names
+list13 = ['red', 'blue', 'green']
+list13.reverse()
+print("13. Colors:", list13)
+
+# 14. Reversing decimal values
+list14 = [2.5, 3.5, 4.5]
+list14.reverse()
+print("14. Decimals:", list14)
+
+# 15. Reversing locations
+list15 = ['home', 'village', 'city', 'district']
+list15.reverse()
+print("15. Locations:", list15)
+
+
+# --- 15 Examples of the pop() method ---
+# Syntax: list.pop(index) -> index is optional (defaults to -1)
+
+# 1. Popping the last element (default behavior)
+list1 = [1, 2, 3, 4]
+removed1 = list1.pop()
+print("1. Removed last:", removed1, "| List:", list1)
+
+# 2. Popping the first element (index 0)
+list2 = ['a', 'b', 'c']
+removed2 = list2.pop(0)
+print("2. Removed index 0:", removed2, "| List:", list2)
+
+# 3. Popping from the middle
+list3 = [10, 20, 30, 40]
+removed3 = list3.pop(1)
+print("3. Removed index 1:", removed3, "| List:", list3)
+
+# 4. Popping a Boolean value
+list4 = [True, False, True]
+list4.pop()
+print("4. After pop:", list4)
+
+# 5. Popping a float from a list
+list5 = [1.1, 2.2, 3.3]
+val5 = list5.pop(1)
+print("5. Removed float:", val5)
+
+# 6. Popping from a list of letters
+list6 = ['x', 'y', 'z']
+list6.pop(0)
+print("6. After first pop:", list6)
+
+# 7. Popping the only element (makes list empty)
+list7 = [0]
+list7.pop()
+print("7. Empty now:", list7)
+
+# 8. Popping using a negative index (-1 is the last item)
+list8 = [100, 200, 300]
+list8.pop(-1)
+print("8. Negative index pop:", list8)
+
+# 9. Popping a fruit from the list
+list9 = ['apple', 'banana', 'cherry']
+fruit = list9.pop(1)
+print("9. Popped fruit:", fruit)
+
+# 10. Popping from multiples of five
+list10 = [5, 10, 15, 20]
+list10.pop(2)
+print("10. Remaining:", list10)
+
+# 11. Popping an animal string
+list11 = ['cat', 'dog', 'fish']
+list11.pop()
+print("11. After pop:", list11)
+
+# 12. Popping an odd number
+list12 = [1, 3, 5, 7]
+list12.pop(0)
+print("12. Remaining odds:", list12)
+
+# 13. Popping a color
+list13 = ['red', 'blue', 'green']
+list13.pop(1)
+print("13. Remaining colors:", list13)
+
+# 14. Popping a decimal
+list14 = [2.5, 3.5, 4.5]
+list14.pop()
+print("14. After popping decimal:", list14)
+
+# 15. Popping a location
+list15 = ['home', 'village', 'city']
+list15.pop(0)
+print("15. Final list:", list15)
+
+# --- 15 Examples of the insert() method ---
+# Syntax: list.insert(index, element)
+
+# 1. Inserting an integer at the beginning (index 0)
+list1 = [2, 3, 4]
+list1.insert(0, 1)
+print("1. Start:", list1)
+
+# 2. Inserting a character in the middle
+list2 = ['a', 'c', 'd']
+list2.insert(1, 'b')
+print("2. Middle:", list2)
+
+# 3. Inserting into an empty list
+list3 = []
+list3.insert(0, 100)
+print("3. Empty start:", list3)
+
+# 4. Inserting a Boolean at a specific index
+list4 = [True, True]
+list4.insert(1, False)
+print("4. Boolean:", list4)
+
+# 5. Inserting a float
+list5 = [1.1, 3.3]
+list5.insert(1, 2.2)
+print("5. Float:", list5)
+
+# 6. Inserting at the end using a large index
+list6 = ['x', 'y']
+list6.insert(10, 'z') # Acts like append if index is out of range
+print("6. Out of range:", list6)
+
+# 7. Inserting a zero at the front
+list7 = [1, 2, 3]
+list7.insert(0, 0)
+print("7. Zero at front:", list7)
+
+# 8. Inserting a negative index (counts from the end)
+list8 = [10, 20, 40]
+list8.insert(-1, 30) # Inserts before the last element
+print("8. Negative index:", list8)
+
+# 9. Inserting a fruit into a list
+list9 = ['apple', 'cherry']
+list9.insert(1, 'banana')
+print("9. Fruits:", list9)
+
+# 10. Inserting a multiple of 5
+list10 = [5, 15, 20]
+list10.insert(1, 10)
+print("10. Multiples:", list10)
+
+# 11. Inserting a pet
+list11 = ['cat', 'fish']
+list11.insert(1, 'dog')
+print("11. Pets:", list11)
+
+# 12. Inserting an odd number
+list12 = [1, 5, 7]
+list12.insert(1, 3)
+print("12. Odds:", list12)
+
+# 13. Inserting a color
+list13 = ['red', 'green']
+list13.insert(1, 'blue')
+print("13. Colors:", list13)
+
+# 14. Inserting a decimal
+list14 = [2.5, 4.5]
+list14.insert(1, 3.5)
+print("14. Decimals:", list14)
+
+# 15. Inserting a location
+list15 = ['home', 'city']
+list15.insert(1, 'village')
+print("15. Locations:", list15)
+
+# --- 15 Examples of the index() method ---
+
+# 1. Finding the index of an integer
+list1 = [10, 20, 30, 40]
+print("1. Index of 20:", list1.index(20))
+
+# 2. Finding the index of a character
+list2 = ['a', 'b', 'c', 'd']
+print("2. Index of 'c':", list2.index('c'))
+
+# 3. Finding the first occurrence when duplicates exist
+list3 = [5, 10, 15, 10, 20]
+print("3. First index of 10:", list3.index(10))
+
+# 4. Finding the index of a Boolean value
+list4 = [False, True, False]
+print("4. Index of True:", list4.index(True))
+
+# 5. Finding the index of a float
+list5 = [1.1, 2.2, 3.3, 4.4]
+print("5. Index of 3.3:", list5.index(3.3))
+
+# 6. Finding index within a specific range (start at index 2)
+list6 = ['x', 'y', 'z', 'x', 'y']
+print("6. Index of 'x' after pos 2:", list6.index('x', 2))
+
+# 7. Finding index of zero
+list7 = [5, 4, 3, 0, 1]
+print("7. Index of 0:", list7.index(0))
+
+# 8. Finding index of a large number
+list8 = [100, 200, 300, 400]
+print("8. Index of 400:", list8.index(400))
+
+# 9. Finding index of a fruit string
+list9 = ['apple', 'banana', 'cherry']
+print("9. Index of 'banana':", list9.index('banana'))
+
+# 10. Finding index of a multiple of 5
+list10 = [5, 10, 15, 20]
+print("10. Index of 15:", list10.index(15))
+
+# 11. Finding index of an animal string
+list11 = ['cat', 'dog', 'fish', 'bird']
+print("11. Index of 'dog':", list11.index('dog'))
+
+# 12. Finding index of an odd number
+list12 = [2, 4, 6, 7, 8]
+print("12. Index of 7:", list12.index(7))
+
+# 13. Finding index of a color
+list13 = ['red', 'blue', 'green', 'yellow']
+print("13. Index of 'green':", list13.index('green'))
+
+# 14. Finding index of a decimal value
+list14 = [0.5, 1.5, 2.5, 3.5]
+print("14. Index of 2.5:", list14.index(2.5))
+
+# 15. Finding index of a location
+list15 = ['home', 'village', 'city', 'district']
+print("15. Index of 'city':", list15.index('city'))
+
+# --- 15 Examples of the extend() method ---
+
+# 1. Extending a list with another list of integers
+list1 = [1, 2, 3]
+list1.extend([4, 5, 6])
+print("1. Integers:", list1)
+
+# 2. Extending a list of characters
+list2 = ['a', 'b']
+list2.extend(['c', 'd'])
+print("2. Characters:", list2)
+
+# 3. Extending an initially empty list
+list3 = []
+list3.extend([10, 20, 30])
+print("3. Empty start:", list3)
+
+# 4. Extending with Boolean values
+list4 = [True, False]
+list4.extend([True, None])
+print("4. Booleans/None:", list4)
+
+# 5. Extending with floating point numbers
+list5 = [1.1, 2.2]
+list5.extend([3.3, 4.4])
+print("5. Floats:", list5)
+
+# 6. Extending with a string (adds each character individually)
+list6 = ['x', 'y']
+list6.extend('abc')
+print("6. String characters:", list6)
+
+# 7. Extending with a range of numbers
+list7 = [0]
+list7.extend(range(1, 4))
+print("7. Range object:", list7)
+
+# 8. Extending with large numbers
+list8 = [100, 200]
+list8.extend([300, 400, 500])
+print("8. Hundreds:", list8)
+
+# 9. Extending fruit list
+list9 = ['apple']
+list9.extend(['banana', 'cherry', 'date'])
+print("9. Fruits:", list9)
+
+# 10. Extending steps of five
+list10 = [5, 10]
+list10.extend([15, 20, 25])
+print("10. Multiples:", list10)
+
+# 11. Extending pet names
+list11 = ['cat']
+list11.extend(['dog', 'fish', 'bird'])
+print("11. Pets:", list11)
+
+# 12. Extending odd numbers
+list12 = [1, 3]
+list12.extend([5, 7, 9])
+print("12. Odds:", list12)
+
+# 13. Extending colors
+list13 = ['red']
+list13.extend(['blue', 'green', 'yellow'])
+print("13. Colors:", list13)
+
+# 14. Extending with a tuple
+list14 = [2.5, 3.5]
+list14.extend((4.5, 5.5))
+print("14. From tuple:", list14)
+
+# 15. Extending locations
+list15 = ['home']
+list15.extend(['village', 'city', 'district'])
+print("15. Locations:", list15)
+
+# --- 15 Examples of the count() method ---
+
+# 1. Counting an integer that appears multiple times
+list1 = [1, 2, 2, 3, 2]
+print("1. Count of 2:", list1.count(2))
+
+# 2. Counting a character in a list
+list2 = ['a', 'b', 'a', 'c', 'a']
+print("2. Count of 'a':", list2.count('a'))
+
+# 3. Counting an item that is NOT in the list
+list3 = [10, 20, 30]
+print("3. Count of 50:", list3.count(50))
+
+# 4. Counting Boolean True values
+list4 = [True, False, True, True]
+print("4. Count of True:", list4.count(True))
+
+# 5. Counting specific floating point numbers
+list5 = [1.1, 2.2, 1.1, 3.3]
+print("5. Count of 1.1:", list5.count(1.1))
+
+# 6. Counting a specific string
+list6 = ['x', 'y', 'z', 'x']
+print("6. Count of 'x':", list6.count('x'))
+
+# 7. Counting zeros in a sequence
+list7 = [0, 1, 0, 0, 2]
+print("7. Count of 0:", list7.count(0))
+
+# 8. Counting large integers
+list8 = [100, 200, 100, 300, 100]
+print("8. Count of 100:", list8.count(100))
+
+# 9. Counting fruit names
+list9 = ['apple', 'banana', 'apple', 'cherry']
+print("9. Count of 'apple':", list9.count('apple'))
+
+# 10. Counting steps of five
+list10 = [5, 10, 5, 20, 5, 25]
+print("10. Count of 5:", list10.count(5))
+
+# 11. Counting animal types
+list11 = ['cat', 'dog', 'cat', 'fish']
+print("11. Count of 'cat':", list11.count('cat'))
+
+# 12. Counting odd numbers
+list12 = [1, 3, 5, 7, 3, 9]
+print("12. Count of 3:", list12.count(3))
+
+# 13. Counting colors
+list13 = ['red', 'blue', 'red', 'green', 'red']
+print("13. Count of 'red':", list13.count('red'))
+
+# 14. Counting specific decimals
+list14 = [2.5, 3.5, 2.5, 4.5]
+print("14. Count of 2.5:", list14.count(2.5))
+
+# 15. Counting locations
+list15 = ['home', 'city', 'home', 'village', 'home']
+print("15. Count of 'home':", list15.count('home'))
+
+# --- 15 Examples of the copy() method ---
+
+# 1. Copying a list of integers
+list1 = [1, 2, 3]
+new1 = list1.copy()
+print("1. Integers Copy:", new1)
+
+# 2. Copying a list of strings
+list2 = ['a', 'b', 'c']
+new2 = list2.copy()
+print("2. Characters Copy:", new2)
+
+# 3. Copying an empty list
+list3 = []
+new3 = list3.copy()
+print("3. Empty Copy:", new3)
+
+# 4. Copying Booleans
+list4 = [True, False]
+new4 = list4.copy()
+print("4. Booleans Copy:", new4)
+
+# 5. Copying floats
+list5 = [1.1, 2.2, 3.3]
+new5 = list5.copy()
+print("5. Floats Copy:", new5)
+
+# 6. Copying mixed letters
+list6 = ['x', 'y', 'z']
+new6 = list6.copy()
+print("6. Letters Copy:", new6)
+
+# 7. Copying a simple range
+list7 = [0, 1, 2]
+new7 = list7.copy()
+print("7. Range Copy:", new7)
+
+# 8. Copying large integers
+list8 = [100, 200, 300]
+new8 = list8.copy()
+print("8. Hundreds Copy:", new8)
+
+# 9. Copying fruit names
+list9 = ['apple', 'banana']
+new9 = list9.copy()
+print("9. Fruits Copy:", new9)
+
+# 10. Copying multiples of five
+list10 = [5, 10, 15]
+new10 = list10.copy()
+print("10. Multiples Copy:", new10)
+
+# 11. Copying animal names
+list11 = ['cat', 'dog']
+new11 = list11.copy()
+print("11. Pets Copy:", new11)
+
+# 12. Copying odd numbers
+list12 = [1, 3, 5, 7]
+new12 = list12.copy()
+print("12. Odds Copy:", new12)
+
+# 13. Copying color names
+list13 = ['red', 'blue', 'green']
+new13 = list13.copy()
+print("13. Colors Copy:", new13)
+
+# 14. Copying decimal values
+list14 = [2.5, 3.5, 4.5]
+new14 = list14.copy()
+print("14. Decimals Copy:", new14)
+
+# 15. Copying a list of locations
+list15 = ['home', 'city', 'district']
+new15 = list15.copy()
+print("15. Locations Copy:", new15)
+
+# --- 15 Examples of the clear() method ---
+
+# 1. Clearing a list of integers
+list1 = [1, 2, 3]
+list1.clear()
+print("1. Integers:", list1)
+
+# 2. Clearing a list of strings
+list2 = ['a', 'b', 'c']
+list2.clear()
+print("2. Characters:", list2)
+
+# 3. Clearing a list with large numbers
+list3 = [10, 20, 30]
+list3.clear()
+print("3. Large numbers:", list3)
+
+# 4. Clearing a list of Booleans and None
+list4 = [True, False, None]
+list4.clear()
+print("4. Booleans:", list4)
+
+# 5. Clearing a list of floating point numbers
+list5 = [1.1, 2.2, 3.3]
+list5.clear()
+print("5. Floats:", list5)
+
+# 6. Clearing a list of letters
+list6 = ['x', 'y', 'z']
+list6.clear()
+print("6. Letters:", list6)
+
+# 7. Clearing a list of sequential zeros and ones
+list7 = [0, 1, 2]
+list7.clear()
+print("7. Sequence:", list7)
+
+# 8. Clearing hundreds
+list8 = [100, 200, 300]
+list8.clear()
+print("8. Hundreds:", list8)
+
+# 9. Clearing a list of fruits
+list9 = ['apple', 'banana', 'cherry']
+list9.clear()
+print("9. Fruits:", list9)
+
+# 10. Clearing steps of five
+list10 = [5, 10, 15, 20]
+list10.clear()
+print("10. Multiples:", list10)
+
+# 11. Clearing pet names
+list11 = ['cat', 'dog', 'fish']
+list11.clear()
+print("11. Pets:", list11)
+
+# 12. Clearing odd numbers
+list12 = [1, 3, 5, 7]
+list12.clear()
+print("12. Odds:", list12)
+
+# 13. Clearing a list of colors
+list13 = ['red', 'blue', 'green']
+list13.clear()
+print("13. Colors:", list13)
+
+# 14. Clearing decimals
+list14 = [2.5, 3.5, 4.5]
+list14.clear()
+print("14. Decimals:", list14)
+
+# 15. Clearing nested locations
+list15 = ['home', 'village', 'city', 'district']
+list15.clear()
+print("15. Locations:", list15)
+
+# --- 15 Examples of the append() method ---
+
+# 1. Appending an integer
+list1 = [1, 2, 3]
+list1.append(4)
+print("1. Integer:", list1)
+
+# 2. Appending a string character
+list2 = ['a', 'b', 'c']
+list2.append('d')
+print("2. Character:", list2)
+
+# 3. Appending to an initially empty list
+list3 = []
+list3.append(10)
+print("3. Empty start:", list3)
+
+# 4. Appending a None value
+list4 = [True, False]
+list4.append(None)
+print("4. None type:", list4)
+
+# 5. Appending a float
+list5 = [1.1, 2.2]
+list5.append(3.3)
+print("5. Float:", list5)
+
+# 6. Appending a single letter
+list6 = ['x', 'y']
+list6.append('z')
+print("6. Letter:", list6)
+
+# 7. Appending a zero
+list7 = [0]
+list7.append(1)
+print("7. Zero to One:", list7)
+
+# 8. Appending a large number
+list8 = [100, 200]
+list8.append(300)
+print("8. Hundreds:", list8)
+
+# 9. Appending a fruit string
+list9 = ['apple', 'banana']
+list9.append('cherry')
+print("9. Fruit:", list9)
+
+# 10. Appending a multiple of 5
+list10 = [5, 10, 15]
+list10.append(20)
+print("10. Multiples:", list10)
+
+# 11. Appending an animal string
+list11 = ['cat', 'dog']
+list11.append('fish')
+print("11. Animal:", list11)
+
+# 12. Appending an odd number
+list12 = [1, 3, 5]
+list12.append(7)
+print("12. Odd number:", list12)
+
+# 13. Appending a color
+list13 = ['red', 'blue']
+list13.append('green')
+print("13. Color:", list13)
+
+# 14. Appending a decimal ending in .5
+list14 = [2.5, 3.5]
+list14.append(4.5)
+print("14. Decimal .5:", list14)
+
+# 15. Appending a list as a single element (Nested List)
+list15 = [1, 2]
+list15.append([3, 4])
+print("15. Nested list:", list15)
+
+# --- 15 Examples of the extend() method ---
+
+# 1. Extending with another list of integers
+list1 = [1, 2, 3]
+list1.extend([4, 5])
+print("1. Integers:", list1)
+
+# 2. Extending with a list of characters
+list2 = ['a', 'b']
+list2.extend(['c', 'd'])
+print("2. Characters:", list2)
+
+# 3. Extending an empty list
+list3 = []
+list3.extend([10, 20])
+print("3. Empty start:", list3)
+
+# 4. Extending with Boolean values
+list4 = [True]
+list4.extend([False, None])
+print("4. Booleans/None:", list4)
+
+# 5. Extending with floating point numbers
+list5 = [1.1, 2.2]
+list5.extend([3.3, 4.4])
+print("5. Floats:", list5)
+
+# 6. Extending with a string (it adds each character!)
+list6 = ['x', 'y']
+list6.extend('abc')
+print("6. String (as iterable):", list6)
+
+# 7. Extending with zeros
+list7 = [0]
+list7.extend([0, 0])
+print("7. Zeros:", list7)
+
+# 8. Extending with hundreds
+list8 = [100, 200]
+list8.extend([300, 400])
+print("8. Large numbers:", list8)
+
+# 9. Extending fruit list
+list9 = ['apple']
+list9.extend(['banana', 'cherry'])
+print("9. Fruits:", list9)
+
+# 10. Extending with steps of five
+list10 = [5, 10]
+list10.extend([15, 20])
+print("10. Steps of 5:", list10)
+
+# 11. Extending pet list
+list11 = ['cat']
+list11.extend(['dog', 'fish'])
+print("11. Pets:", list11)
+
+# 12. Extending odd numbers
+list12 = [1, 3]
+list12.extend([5, 7])
+print("12. Odds:", list12)
+
+# 13. Extending colors
+list13 = ['red']
+list13.extend(['blue', 'green'])
+print("13. Colors:", list13)
+
+# 14. Extending mixed decimals
+list14 = [2.5]
+list14.extend([3.5, 4.5])
+print("14. Decimals:", list14)
+
+# 15. Extending locations
+list15 = ['home']
+list15.extend(['village', 'city'])
+print("15. Locations:", list15)
+
